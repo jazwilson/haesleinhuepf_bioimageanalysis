@@ -1,0 +1,25 @@
+name: devbio
+channels:
+        - conda-forge
+        - bioconda
+dependencies:
+        - matplotlib
+        - pandas
+        - jupyterlab_widgets
+        - ipywidgets
+        - ipykernel 
+        - jupyterlab
+        - numpy
+        - scipy
+        - python=3.9
+        - seaborn
+
+        - devbio-napari
+        - "dask[array]"
+        - "dask[distributed]"
+        - joblib
+        - napari-workflows
+        - numba
+
+#conda install -c conda-forge ipympl ## for jupyter
+
