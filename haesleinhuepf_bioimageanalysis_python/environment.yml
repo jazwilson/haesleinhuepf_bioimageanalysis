@@ -3,15 +3,18 @@ channels:
         - conda-forge
         - bioconda
 dependencies:
-        - matplotlib
-        - pandas
+
         - jupyterlab_widgets
         - ipywidgets
         - ipykernel 
         - jupyterlab
-        - numpy
-        - scipy
         - python=3.9
+
+        - matplotlib
+        - pandas
+        - numpy
+        - numba
+        - scipy
         - seaborn
 
         - devbio-napari
@@ -19,7 +22,9 @@ dependencies:
         - "dask[distributed]"
         - joblib
         - napari-workflows
-        - numba
+
+        - scikit-image
+        - pyclesperanto-prototype
 
 #conda install -c conda-forge ipympl ## for jupyter
 
