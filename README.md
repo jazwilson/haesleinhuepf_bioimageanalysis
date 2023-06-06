@@ -1,5 +1,4 @@
-# image_analysis_python
-Notebooks exploring image analysis with python
+# haesleinhuepf_bioimageanalysis in python
 
 ## Workbook: haesleinhuepf_bioimageanalysis_python
 Workbook based on material by *Robert Haase, Guillaume Witz, Miguel Fernandes, Marcelo Leomil Zoccoler, Shannon Taylor* to analyse three dimensional images of cells and tissues acquired using modern fluorescence microscopes with python. 
